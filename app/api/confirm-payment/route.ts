@@ -1,14 +1,11 @@
 import { type NextRequest, NextResponse } from "next/server"
 
-// Simulate payment confirmation
 export async function POST(request: NextRequest) {
   try {
     const { paymentIntentId, paymentMethodId } = await request.json()
 
-    // Simulate payment processing delay
     await new Promise((resolve) => setTimeout(resolve, 2000))
 
-    // Simulate random payment success/failure (90% success rate)
     const isSuccess = Math.random() > 0.1
 
     if (isSuccess) {
