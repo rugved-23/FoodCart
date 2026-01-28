@@ -44,15 +44,13 @@ Instead of searching manually, users can simply select the dish they want and th
 ## ⚙️ Installation & Setup
 
 ### 1️⃣ Clone the repository
-git clone https://github.com/rugved-23/FoodCart.git
+'git clone https://github.com/rugved-23/FoodCart.git'
 
 2️⃣ Go to project directory
-cd FoodCart
+'cd FoodCart'
 
 3️⃣ Install dependencies
-npm install
+'npm install'
 
 4️⃣ Run the development server
-npm run dev
-
-
+'npm run dev'
